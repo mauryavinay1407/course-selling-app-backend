@@ -8,8 +8,6 @@ const app=express();
 app.use(express.json());
 app.use(cookieParser());
 
-
-
 //all routes
 
 app.use('/api/v1/users',userRouter)
